@@ -1,12 +1,12 @@
-#**Comprehensive Overview of the Data Architecture Solution**
+# **Comprehensive Overview of the Data Architecture Solution**
 
 This project demonstrates a robust data architecture solution on AWS, covering a full data pipeline and machine learning workflow. It encompasses components for data ingestion, transformation, storage, machine learning, and frontend communication, ensuring scalability, security, and efficiency.
 Dataset information: https://www.kaggle.com/competitions/instacart-market-basket-analysis
 
 
 
-##**Architecture Overview**
-###1. Platform Engineer
+## **Architecture Overview**
+### 1. Platform Engineer
 Focus: Infrastructure, CI/CD, Security, and Service Configuration.
 
 Responsibilities:
@@ -24,7 +24,7 @@ Setting up VPC endpoints, security groups, and bastion hosts.
 Ensuring Compliance and Scalability:
 Maintaining scalable and secure platforms for data ingestion and processing.
 
-###2. Data Engineer
+### 2. Data Engineer
 Focus: Data Processing Pipelines, Transformation, and Orchestration.
 
 Responsibilities:
@@ -41,7 +41,7 @@ Utilizing Amazon Athena for efficient querying and analytics.
 Automation:
 Writing and managing scheduled and event-driven ETL scripts.
 
-###3. Data Analyst
+### 3. Data Analyst
 Focus: Data Exploration, Analytics, and Insights.
 
 Responsibilities:
@@ -54,7 +54,7 @@ Developing dashboards and reports for actionable business insights.
 Data Validation:
 Ensuring data quality and providing feedback to enhance data pipelines.
 
-###4. Full Stack Developer
+### 4. Full Stack Developer
 Focus: Frontend Applications and Customer-Facing Services.
 
 Responsibilities:
@@ -69,7 +69,7 @@ Machine Learning Integration:
 Displaying ML predictions and outputs from the Consumption Zone (S3 Bucket4).
 
 
-##**Key Features**
+## **Key Features**
 Scalability: Architecture supports dynamic scaling to handle increasing data loads.
 Security: End-to-end data security with IAM, WAF, and KMS configurations.
 Automation: Automated pipelines and deployments using CI/CD best practices.
@@ -77,7 +77,7 @@ Efficiency: Optimized querying and storage using AWS Glue, Athena, and S3.
 User Interaction: Seamless frontend integration to deliver real-time insights and notifications.
 
 
-##**Technology Stack and Artichitecture Solution blue print**
+## **Technology Stack and Artichitecture Solution blue print**
 Core AWS Services:
 Amazon VPC, S3, RDS, Lambda, Glue, Athena, API Gateway, Kinesis, CloudFormation, IAM, KMS, CloudWatch, CloudTrail.
 Development and Automation Tools:
@@ -87,9 +87,9 @@ Amazon QuickSight, Athena, Custom Dashboards.
 ![![image](https://github.com/user-attachments/assets/6e4bef59-ae25-4298-a1ff-1415ced91924)
 ]
 
-##**How to Contribute**
+## **How to Contribute**
 1. Clone the repository:
-   `git clone <>`
+   `git clone <https://github.com/RachelRong07/project.git>`
 
    
 
