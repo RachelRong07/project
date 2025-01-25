@@ -39,13 +39,13 @@ variable "power_user_policy_arn" {
 # User Names
 variable "user_names" {
   description = "List of all IAM user names"
-  default     = ["Henry", "Rachel", "Sherry", "Ray", "Anna", "Milly"]
+  default     = ["Henry", "Rachel", "Sherry", "Ray", "Anna", "Milly", "Ethan"]
 }
 
 # Group Memberships
 variable "platform_engineer_users" {
   description = "Users belonging to the Platform Engineers group"
-  default     = ["Henry", "Rachel"]
+  default     = ["Henry", "Rachel", "Ethan"]
 }
 
 variable "data_engineer_users" {
@@ -60,7 +60,7 @@ variable "full_stack_users" {
 
 variable "billing_readonly_users" {
  description = "Users with billing read access"
- default = ["Henry", "Rachel", "Sherry", "Ray", "Anna", "Milly"] 
+ default = ["Henry", "Rachel", "Sherry", "Ray", "Anna", "Milly", "Ethan"] 
 }
 
 # Variables for Henry's specific permissions
@@ -78,7 +78,13 @@ variable "henry_additional_policies" {
 variable "alert_emails" {
   type = list(string)
   default = [
-    "oceancdy1989@gmail.com"
+    "oceancdy1989@gmail.com", #Henry
+    "rayrunzewang@gmail.com", #Ray
+    "q1717045@gmail.com",   #Anna
+    "millychenau7@gmail.com",  #Milly
+    "1107rachelrong@gmail.com", #Rachel
+    "sherrywang080@gmail.com",  #Sherry
+    "zycc2727@gmail.com"        #Ethan
     
   ]
 }
